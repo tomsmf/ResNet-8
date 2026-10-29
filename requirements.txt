@@ -1,0 +1,6 @@
+# Local (Mac) environment. On Colab, keep its preinstalled torch/torchvision.
+# torch is pinned: 2.15 crashes on MPS under macOS 14 (missing arrayViewWithShape:strides:)
+torch==2.12.0
+torchvision==0.27.0
+numpy
+pandas
